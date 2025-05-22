@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" fill="green" x="0" y="0" width="600" height="400" viewbox = "0 0 600 400">
+	<rect x="0" y="0" width="600" height="400" fill = "none" />
+	
+	<path fill="none" id="Table_Vien" stroke="green" stroke-width="2" d="M5,15 a10,10 0,0,1 10,-10 h570 a10,10 1,0,1 10,10 v370 a10,10 0,0,1 -10,10 h-570 a10,10 1,0,1 -10,-10 v-370 "/>
+	
+	<path fill="green" id="Table_Vien" stroke="green" stroke-width="2" d="M5,15 a10,10 0,0,1 10,-10 h570 a10,10 1,0,1 10,10 v70 h-590 v-70 "/>
+	
+	<text fill="white" x="210" y="48" font-size="16" id="Xe4Cho1_Caption">Giá</text>
+	<text fill="white" x="200" y="68" font-size="16" id="Xe4Cho1_Caption">mở cửa</text>
+	<text fill="white" x="300" y="58" font-size="16" id="Xe4Cho1_Caption">Giá 20km đầu</text>
+	<text fill="white" x="440" y="48" font-size="16" id="Xe4Cho1_Caption">Quãng đường từ km</text>
+	<text fill="white" x="479" y="68" font-size="16" id="Xe4Cho1_Caption">21 trở đi</text>
+	
+	<path fill="green" id="Table_Vien" stroke="green" stroke-width="1" d="M5,180 h590"/>
+	<path fill="green" id="Table_Vien" stroke="green" stroke-width="1" d="M5,290 h590"/>
+	
+	<path fill="green" id="Table_Vien" stroke="green" stroke-width="1" d="M180,69 v326"/>
+	<path fill="green" id="Table_Vien" stroke="green" stroke-width="1" d="M269,69 v326"/>
+	<path fill="green" id="Table_Vien" stroke="green" stroke-width="1" d="M425,69 v326"/>
+	
+	<path fill="white" id="Table_Vien" stroke="white" stroke-width="0.5" d="M180,15 v69"/>
+	<path fill="white" id="Table_Vien" stroke="white" stroke-width="0.5" d="M269,15 v69"/>
+	<path fill="white" id="Table_Vien" stroke="white" stroke-width="0.5" d="M425,15 v69"/>
+	
+	
+	<text fill="white" x="35" y="40" font-size="20" id="Xe4Cho1_Caption">GIÁ CƯỚC</text>
+	<text fill="white" x="55" y="70" font-size="20" id="Xe4Cho1_Caption">TAXI</text>
+	
+	<text fill="green" x="190" y="130" font-size="18" id="Xe4Cho1_Caption">20.000</text>
+	<text fill="green" x="190" y="150" font-size="18" id="Xe4Cho1_Caption">đ/1.4km</text>
+	
+	<text fill="green" x="320" y="130" font-size="24" id="Xe4Cho1_Caption">12.800</text>
+	<text fill="green" x="325" y="155" font-size="24" id="Xe4Cho1_Caption">đ/km</text>
+	
+	<text fill="green" x="490" y="130" font-size="24" id="Xe4Cho1_Caption">11.400</text>
+	<text fill="green" x="495" y="155" font-size="24" id="Xe4Cho1_Caption">đ/km</text>
+	
+	
+	
+	
+	<text fill="green" x="190" y="230" font-size="18" id="Xe4Cho1_Caption">20.000</text>
+	<text fill="green" x="190" y="250" font-size="18" id="Xe4Cho1_Caption">đ/1.3km</text>
+	
+	<text fill="green" x="320" y="230" font-size="24" id="Xe4Cho1_Caption">14.600</text>
+	<text fill="green" x="325" y="255" font-size="24" id="Xe4Cho1_Caption">đ/km</text>
+	
+	<text fill="green" x="490" y="230" font-size="24" id="Xe4Cho1_Caption">11.500</text>
+	<text fill="green" x="495" y="255" font-size="24" id="Xe4Cho1_Caption">đ/km</text>
+	
+	
+	
+	<text fill="green" x="190" y="340" font-size="18" id="Xe4Cho1_Caption">20.000</text>
+	<text fill="green" x="190" y="360" font-size="18" id="Xe4Cho1_Caption">đ/1.2km</text>
+	
+	<text fill="green" x="320" y="340" font-size="24" id="Xe4Cho1_Caption">16.200</text>
+	<text fill="green" x="325" y="365" font-size="24" id="Xe4Cho1_Caption">đ/km</text>
+	
+	<text fill="green" x="490" y="340" font-size="24" id="Xe4Cho1_Caption">14.600</text>
+	<text fill="green" x="495" y="365" font-size="24" id="Xe4Cho1_Caption">đ/km</text>
+	
+	
+	<g transform="translate(25,100) scale(0.75)">
+		<path fill="#6fbf06"  id="Xe4Cho1" stroke="none" d="M15,25 m3,-6 c6 -10, 8 -10, 12  -14 c10 -4,10 -4,35 -3 c8 1,10 3,27 20 c10 0,20 5,22 10 v14 h-19 a10,10 1,0,0 -24,0 h-28 a10,10 1,0,0 -24,0 h-5 v-20"/>
+		
+		<path class="KinhXe KinhXe4Cho" fill="#2e2e2b" d="M35,22 c0 -5, -5 -13, 18 -15 l2,15"/>
+		<path class="KinhXe KinhXe4Cho" fill="#2e2e2b" d="M59,22 l-2,-15 c9 0, 17 0, 25 15	"/>
+		
+		<g id="Oto4c1_BanhXe1">
+			<circle cx="31" cy="45" r="10.5" fill="#2e2e2b"/>
+			<circle cx="31" cy="45" r="6.5" fill="#a7a79d"/> 
+			<circle cx="31" cy="45" r="2" fill="#707068"/>
+		</g>
+		<use xlink:href="#Oto4c1_BanhXe1" x="52" y="0" />
+		<path fill="#ffefbd" d="M100,28 s10,-3 10,5 l-8,-2"/>
+	</g>
+	<text fill="rgba(0,0,0,0.8)" x="40" y="166" font-size="16" id="Xe4Cho1_Caption">Xe 4 chỗ</text>
+	
+	
+	
+	
+	<g transform="translate(22,200) scale(0.79)">
+		<path fill="#6fbf06"  id="Xe5Cho1" stroke="none" d="M5,25 c1 -5, 5 -5,13 -6 c6 -10, 8 -10, 12  -14 c10 -4,10 -4,35 -3 c8 1,10 3,27 20 c10 0,20 5,22 10 v14 h-19 a10,10 1,0,0 -24,0 h-28 a10,10 1,0,0 -24,0 h-15 v-20"/>
+		
+		<path class="KinhXe KinhXe5Cho" fill="#2e2e2b" d="M35,22 c0 -5, -5 -13, 18 -15 l2,15"/>
+		<path class="KinhXe KinhXe5Cho" fill="#2e2e2b" d="M59,22 l-2,-15 c9 0, 17 0, 25 15	"/>
+		
+		<g id="Oto5c1_BanhXe">
+			<circle cx="31" cy="45" r="10.5" fill="#2e2e2b"/>
+			<circle cx="31" cy="45" r="6.5" fill="#a7a79d"/>
+			<circle cx="31" cy="45" r="2" fill="#707068"/>
+		</g>
+		<use xlink:href="#Oto5c1_BanhXe" x="52" y="0" />
+		<path fill="#ffefbd" d="M100,28 s10,-3 10,5 l-8,-2"/>
+	</g>
+	<text fill="rgba(0,0,0,0.8)" x="40" y="268" font-size="14" id="Xe5Cho1_Caption">Xe 5 chỗ</text>
+	
+	
+	
+	
+	<g id="OTo7c1" transform="translate(15,310) scale(1.15)">
+		<path id="Xe7Cho1" fill="#6fbf06" 
+		d="M15,40 
+		l-3,-2
+		c-2 -2, -1 -1 , -2 -3 
+		l0,-17 
+		c 5 -12, 8 -12 , 12 -15
+		l28,0
+		c8 0, 12 3 , 22 12
+		c10 0, 15 2, 18 8 
+		l2,12 l-4 4 l-3 0
+		c2 -14, -24 -22, -24,2
+		l-23,-1
+		c5 -16, -24 -22, -23,0
+		"/>
+		
+		<path class="KinhXe KinhXe7Cho" fill="#2e2e2b" d="M39,19 l-10,0 c-2 0, -8 0, 0 -11 l8,0	l2,11" />
+		
+		<path class="KinhXe KinhXe7Cho" fill="#2e2e2b" d="M46,19 l-2,-11 c9 0, 17 0, 19 10.5"/>
+		<path fill="#ffefbd" d="M80,17 s10,-3 10,5 l-8,-2"/>
+		
+		<g id="OTo7c1_BanhXe">
+			<circle cx="27" cy="37" r="10" fill="#2e2e2b"/>
+			<circle cx="27" cy="37" r="5" fill="#a7a79d"/>
+			<circle cx="27" cy="37" r="2" fill="#707068"/>
+		</g>
+		<use xlink:href="#OTo7c1_BanhXe" x="46" y="0" />
+	</g>
+	<text fill="rgba(0,0,0,0.8)" x="50" y="380" font-size="12" id="Xe7Cho1_Caption">Xe 7 chỗ</text>
+</svg>
