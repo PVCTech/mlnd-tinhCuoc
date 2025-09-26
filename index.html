@@ -1,39 +1,3 @@
-<?php 
-    include ($_SERVER['DOCUMENT_ROOT'].'/tuyendung/ketnoidb.php');
-    date_default_timezone_set('Asia/Ho_Chi_Minh');
-    $DateNow = (int)date('d', time());
-    $DateNow1 = $DateNow<10?'0'.$DateNow : $DateNow;
-    
-    $MonthNow = (int)date('m', time());
-    $MonthNow1 = $MonthNow<10?'0'.$MonthNow : $MonthNow;
-    
-    $YearNow = "20".date('y', time());
-    
-    $CountColumn = "`count".$YearNow.$MonthNow1."`";
-    $CountColumn2 = "count".$YearNow.$MonthNow1;
-    
-    $TableName = 'counter_tinhcuoc_';
-        
-    $SqlCheckTBle = "SHOW TABLES LIKE '".$TableName.$YearNow.$MonthNow1."'";
-    $QueryCheckTBle = mysqli_query($db,$SqlCheckTBle);
-    if (mysqli_num_rows($QueryCheckTBle) ==0)
-    {
-        $SqlCreate = "CREATE TABLE `".$TableName.$YearNow.$MonthNow1."` ( `ngay` INT(2) NOT NULL , `count` INT(20) NOT NULL ) ENGINE = InnoDB";
-        mysqli_query($db,$SqlCreate);
-    }
-    
-    $SqlCheckNgay = "SELECT * FROM `".$TableName.$YearNow.$MonthNow1."` WHERE ngay=".$DateNow." LIMIT 1";
-    $QueryCheckNgay = mysqli_query($db,$SqlCheckNgay);
-    if (mysqli_num_rows($QueryCheckNgay) ==0)
-    {
-        $SqlInsert = "INSERT INTO `".$TableName.$YearNow.$MonthNow1."` (`ngay`) VALUES ($DateNow)";
-        mysqli_query($db,$SqlInsert);
-    }
-    
-    
-    $sqlCount= "UPDATE `".$TableName.$YearNow.$MonthNow1."` SET count=count + 1 WHERE ngay=".$DateNow;
-	$queryTinh = mysqli_query($db,$sqlCount);
-?>
 <!DOCTYPE html>
 <html xmlns="”http://www.w3.org/1999/xhtml”" lang="”vi”" xml:lang="”vi”"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
@@ -892,6 +856,6 @@
         <div style="text-align:left;"><center><br>
             <span style="color:rgba(255,255,255,1)">CÔNG TY TNHH MAI LINH NAM ĐỊNH</span><br>
         </div>
-        <img src="../goixe/vitri.svg" width="20px"> 186 Thanh Bình - P. Hạ Long - NĐ<br><?php include ($_SERVER['DOCUMENT_ROOT'].'/counters/count_giacuoc.php'); ?></div>
+        <img src="../goixe/vitri.svg" width="20px"> 186 Thanh Bình - P. Nam Định - Ninh Bình<br></div>
     <div style="height:95px;">&nbsp;</div>
 </div>
